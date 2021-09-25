@@ -14,6 +14,15 @@ Syntax highlighted code block
 # Header 1
 ## Header 2
 ### Header 3
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "6a6ccd25-9132-49c1-add1-07e81b4ed549",
+    });
+  });
+</script>
 
 - Bulleted
 - List
